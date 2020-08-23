@@ -1,0 +1,60 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-image: url("fondo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+div{
+    width: 500px;
+    height: 300px;
+    margin: 250px;
+    padding: 10px;
+    text-align: center;
+    color: white;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+input[type="text"], input[type="password"]{
+    border-radius: 20px;
+    width: 450px;
+    margin-top: 20px;
+    padding: 12px;
+    outline: none;
+    border: none;
+}
+input[type="submit"]{
+    padding: 10px;
+    background-color: rgb(37, 65, 69);
+    border-radius: 10px;
+    width: 100px;
+    outline: none;
+    color: white;
+}
+
+div:before{
+    content: "";
+    width: 30%;
+    height: 100%;
+    background-color: white;
+    position: absolute;
+    opacity: 0.2;
+    border-radius: 15px;
+}
+
+div h1{
+    position: relative;
+}
+div input{
+    position: relative;
+}
+h1{
+    color: snow;
+    font-size: 40px;
+}

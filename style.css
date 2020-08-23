@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script');
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: cadetblue;
+    
+}
+div{
+    text-align: center;
+    padding: 40px;
+    margin: 100px;
+    background-color: lightcoral;
+    width: 400px;
+    height: 550px;
+    border: 3px solid black;
+    border-radius: 15px;
+    box-shadow: 10px 10px 10px black ;
+}
+h1{
+    font-size: 60px;
+    margin: 20px;
+    font-family: 'Dancing Script', cursive;
+    font-weight: bolder;
+    
+}
+label{
+    font-size: 25px;
+    font-weight: bolder;
+
+}
+input[type="text"]{
+    padding: 20px;
+    border-radius: 15px;
+    border: 2px solid black;
+    outline: none;
+    box-shadow: 4px 4px 4px black;
+}
+input[type="submit"], input[type="reset"], input[type="button"] {
+    padding:20px;
+    border-radius: 15px;
+    outline: none;
+    box-shadow: 4px 4px 4px black;
+}
+input[type="submit"]:hover, input[type="reset"]:hover, input[type="button"]:hover{
+    background-color: lightgoldenrodyellow;
+    transition: 0.7s;
+}
